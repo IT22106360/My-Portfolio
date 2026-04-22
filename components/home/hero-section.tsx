@@ -65,45 +65,48 @@ export function HeroSection() {
           {/* Social Links */}
           <div className="flex justify-center lg:justify-start space-x-6 mb-10 text-black">
             {/* GitHub */}
-            <a
-              href="https://github.com/IT22106360"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Button
+              variant="ghost"
+              size="icon"
+              className="hover:text-cyan-600 hover:bg-cyan-50 text-black "
+              asChild
             >
-              <Button
-                variant="ghost"
-                size="icon"
-                className="hover:text-cyan-600 hover:bg-cyan-50 text-black "
+              <a
+                href="https://github.com/IT22106360"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Github className="h-6 w-6" />
-              </Button>
-            </a>
+              </a>
+            </Button>
 
             {/* LinkedIn */}
-            <a
-              href="https://www.linkedin.com/in/rashmika-rupasinghe-9047a1246/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Button
+              variant="ghost"
+              size="icon"
+              className="hover:text-cyan-600 hover:bg-cyan-50 text-black "
+              asChild
             >
-              <Button
-                variant="ghost"
-                size="icon"
-                className="hover:text-cyan-600 hover:bg-cyan-50 text-black "
+              <a
+                href="https://www.linkedin.com/in/rashmika-rupasinghe-9047a1246/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Linkedin className="h-6 w-6" />
-              </Button>
-            </a>
+              </a>
+            </Button>
 
             {/* Email */}
-            <a href="mailto:wark.rupasinghe.work@gmail.com">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="hover:text-cyan-600 hover:bg-cyan-50 text-black "
-              >
+            <Button
+              variant="ghost"
+              size="icon"
+              className="hover:text-cyan-600 hover:bg-cyan-50 text-black "
+              asChild
+            >
+              <a href="mailto:wark.rupasinghe.work@gmail.com">
                 <Mail className="h-6 w-6" />
-              </Button>
-            </a>
+              </a>
+            </Button>
 
             {/* WhatsApp */}
             <a

@@ -32,7 +32,7 @@ export function ContactInfo() {
 
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "https://github.com/IT22106360" },
-    { icon: Linkedin, label: "LinkedIn", href: "www.linkedin.com/in/rashmika-rupasinghe-9047a1246" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/rashmika-rupasinghe-9047a1246" },
   ]
 
   return (
