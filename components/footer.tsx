@@ -76,12 +76,11 @@ export function Footer() {
           <div className="flex flex-col items-end text-right">
             <h4 className="text-lg font-semibold text-gray-900 mb-4">Services</h4>
             <ul className="space-y-3">
+              <li className="text-gray-600">Data Analytics & Visualization</li>
+              <li className="text-gray-600">Machine Learning & AI Solutions</li>
+              <li className="text-gray-600">Project Management</li>
               <li className="text-gray-600">Web Development</li>
-              {/* <li className="text-gray-600">UI/UX Design</li> */}
-              <li className="text-gray-600">Mobile Development</li>
-              <li className="text-gray-600">Software Development</li>
-              <li className="text-gray-600">Consulting</li>
-              <li className="text-gray-600">Technical Support</li>
+              <li className="text-gray-600">Business research & consulting</li>
             </ul>
           </div>
         </div>
